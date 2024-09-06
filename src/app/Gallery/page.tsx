@@ -1,4 +1,9 @@
 'use client';
+// Improvements
+// 1. Add a loading spinner while fetching the data
+// 2. Add error handling
+// 3. Add a placeholder image while loading the images
+// 4. Use the server side rendering to fetch the data
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { Photo } from '../data/photos';

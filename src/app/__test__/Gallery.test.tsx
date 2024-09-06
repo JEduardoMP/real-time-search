@@ -8,7 +8,7 @@ global.fetch = jest.fn(() =>
       results: [
         {
           id: 1,
-          image: 'https://rickandmortyapi.com/api/character/avatar/1.jpeg', // URL completa de la imagen
+          image: 'https://rickandmortyapi.com/api/character/avatar/1.jpeg',
           name: 'Test photo'
         }
       ]
